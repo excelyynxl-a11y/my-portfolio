@@ -129,7 +129,6 @@ export const ProjectsSection = () => {
                     >
                         Check My Github <ArrowRight size={16}/>
                     </a>
-                    2:13:56 continue here!!!!
                 </div>
             </div>
         </section>
