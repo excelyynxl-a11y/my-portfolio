@@ -11,6 +11,7 @@ const skills = [
     // language
     {name: "Python", level: 85, category: "language"},
     {name: "Java", level: 75, category: "language"},
+    {name: "JavaScript", level: 75, category: "language"},
 
     // testing 
     {name: "Unittest", level: 85, category: "testing"},
@@ -21,6 +22,7 @@ const skills = [
     {name: "VS Code", level: 95, category: "tools"},
     {name: "IntelliJ", level: 95, category: "tools"},
     {name: "GitHub", level: 95, category: "tools"},
+    {name: "GitLab", level: 95, category: "tools"},
     {name: "Postman", level: 45, category: "tools"},
 ];
 

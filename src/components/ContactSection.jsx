@@ -59,9 +59,9 @@ export const ContactSection = () => {
                 </h2>
 
                 <p className="text-center text-muted-foreground mb-12 ,ax-w-2xl mx-auto">
-                    Want to know more about me (kepohchi to stalk me)?
+                    Want to know more about me (kepohchi to stalk me 😜)?
                     Feel free to reach out.
-                    I'm always open to duscussing new opportunities!
+                    I'm always open to discussing new opportunities!
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -196,7 +196,7 @@ export const ContactSection = () => {
                                     name="user_name" 
                                     required
                                     className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                                    placeholder="Excelyynx..."
+                                    placeholder="You think I know your name?"
                                 />
                             </div>
 
@@ -212,7 +212,7 @@ export const ContactSection = () => {
                                     name="user_email" 
                                     required
                                     className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                                    placeholder="excelyynxl@gmail.com"
+                                    placeholder="idontknowyouremail@gmail.com"
                                 />
                             </div>
 

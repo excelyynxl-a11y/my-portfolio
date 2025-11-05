@@ -12,21 +12,27 @@ export const AboutSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">
-                            Passionate Web Developer & Cony Bunny Lover
+                            Passionate Web Developer and Tech Learner
                         </h3>
 
                         <p className="text-muted-foreground">
-                            I love cony bunny.I love cony bunny.
-                            I love cony bunny.I love cony bunny.
-                            I love cony bunny.I love cony bunny.
-                            I love cony bunny.I love cony bunny.
+                            I'm Excelyynx from Malaysia, currently a Year 2 student pursuing Software Engineering at Monash University Malaysia.
+                            I have great ethusiasm in crafting responsive, interactive web applications using modern development tools,
+                            exploring APIs, testing automation frameworks and clean UI design.
                         </p>
 
+                        <h3 className="text-2xl font-semibold">
+                            Fun <span className="text-primary"> Facts</span>
+                        </h3>
+
                         <p className="text-muted-foreground">
-                            I love cony bunny.I love cony bunny.
-                            I love cony bunny.I love cony bunny.
-                            I love cony bunny.I love cony bunny.
-                            I love cony bunny.I love cony bunny.
+                            💭 MBTI: INTJ <br></br>
+                            🎂 Birth victim on 8 March 2005 <br></br>
+                            ☕ ZUS Iced Shaken Double Expresso, <br></br>
+                            🍉 watermelon, <br></br>
+                            🐰 cony bunny, <br></br>
+                            🏋️‍♀️ Crossfit are things I love. <br></br>
+                            💬 QOTD "what a priviledge to outgrow things you once settled for"
                         </p>
 
                         <div className="flex flex-col sm: flex-row gap-4 pt-4 justify-center">
@@ -57,7 +63,7 @@ export const AboutSection = () => {
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg"> Web Development </h4>
                                     <p className="text-muted-foreground">
-                                        Creating responsive websites and web application with modern framoworks.
+                                        Creating responsive websites and web application with modern frameworks.
                                     </p>
                                 </div>
                             </div>
