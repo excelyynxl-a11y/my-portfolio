@@ -1,16 +1,39 @@
-# React + Vite
+# 😼 Excelyynx Lim — Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hello dajiahao! 👋 Welcome to my personal portfolio! 👧
 
-Currently, two official plugins are available:
+## ✨ About Me
+Some fun facts about me:
+- 💭 MBTI: **INTJ**
+- 🎂 Birth victim on **8 March 2005**
+- 🍉 Crazy love for **watermelon**, **Cony**, **CrossFit**, and **early sunrise views**
+- 💻 Currently pursuing **Software Engineering** at **Monash University Malaysia**
+- 🏋️‍♀️ Have to hit the **gym at 8 AM** before heading to school or study — gotta sweat em out before starting my day!
+- 🌐 To stalk me (and get my contacts 😉), check out my live portfolio below!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Portfolio
+**Deployed on Vercel:** (https://my-portfolio-pi-sand-52.vercel.app/)
 
-## React Compiler
+## 🛠️ Tech Stack
+This portfolio was built using:
+- ⚡ **React.js** — frontend framework
+- 🎨 **Tailwind CSS** — modern utility-first styling
+- 🧩 **JSX** — structure components cleanly
+- 🔔 **Lucide React** — elegant and customizable icons
+- 📧 **EmailJS** — sending emails directly through my portfolio
+- ☁️ **Vercel** — smooth, easy and fast deployment
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💡 Features
+- 🪄 Clean, responsive design optimized for all devices  
+- ✉️ Functional contact form powered by EmailJS  
+- 🌈 Minimal yet aesthetic UI styled with Tailwind CSS  
+- 🤩 Organized component structure for scalability  
+- 🌗 Dark/light mode toggle 
 
-## Expanding the ESLint configuration
+## 🐥 Updates
+- will list down any improvement made in this section in the future! 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+Made with 💖🔥🍉🐰 by **Excelyynx Lim**
+
