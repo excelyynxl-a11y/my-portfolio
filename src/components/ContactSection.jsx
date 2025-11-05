@@ -104,40 +104,6 @@ export const ContactSection = () => {
                                     </a>
                                 </div>
                             </div>
-
-                            <div className="flex items-start space-x-4">
-                                <div className="p-3 rounded-full bg-primary/30">
-                                    <Instagram className="h-6 w-6 text-primary"/> {" "}
-                                </div>
-                                <div>
-                                    <h4 className="font-medium">
-                                        Instagram  
-                                    </h4>
-                                    <a 
-                                        href="https://www.instagram.com/excel_is_ex/?hl=en" 
-                                        className="text-muted-foreground hover:text-primary transition-colors"
-                                    >
-                                        @excel_is_ex 
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div className="flex items-start space-x-4">
-                                <div className="p-3 rounded-full bg-primary/30">
-                                    <Linkedin className="h-6 w-6 text-primary"/> {" "}
-                                </div>
-                                <div>
-                                    <h4 className="font-medium">
-                                        LinkedIn  
-                                    </h4>
-                                    <a 
-                                        href="https://www.linkedin.com/in/excelyynx-lim-177973304/" 
-                                        className="text-muted-foreground hover:text-primary transition-colors"
-                                    >
-                                        Lim Excelyynx 
-                                    </a>
-                                </div>
-                            </div>
                         </div>
 
                         <div className="pt-8">
