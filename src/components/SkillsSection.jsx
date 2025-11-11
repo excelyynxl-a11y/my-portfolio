@@ -5,7 +5,8 @@ const skills = [
     // frontend
     {name: "HTML/CSS", level: 69, category: "frontend"},
     {name: "JavaScript", level: 75, category: "frontend"},
-    {name: "React", level: 45, category: "frontend"},
+    {name: "React", level: 35, category: "frontend"},
+    {name: "NextJS", level: 30, category: "frontend"},
     {name: "Tailwind CSS", level: 45, category: "frontend"},
 
     // language
@@ -24,9 +25,17 @@ const skills = [
     {name: "GitHub", level: 95, category: "tools"},
     {name: "GitLab", level: 95, category: "tools"},
     {name: "Postman", level: 45, category: "tools"},
+
+    // db 
+    {name: "NeonDB", level: 15, category: "database"},
+
+    // api 
+    {name: "GoogleMap API", level: 15, category: "api"},
+    {name: "EmailJS API", level: 15, category: "api"},
+    {name: "UploadThing API", level: 15, category: "api"},
 ];
 
-const categories = ["all", "frontend", "language", "testing", "tools"]
+const categories = ["all", "frontend", "language", "testing", "tools", "database", "api"]
 
 export const SkillsSection = () => {
     const [activeCategory, setActiveCategory] = useState("all");
