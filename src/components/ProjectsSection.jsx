@@ -3,6 +3,24 @@ import { Github, ExternalLink, ArrowRight } from "lucide-react";
 const projects = [
     {
         id: 1,
+        title: "Travel Planner",
+        description: "Full-stack trip planning web app to sign in with GitHub account, create personalized travel itineraries, visualize destinations on Google Map, integrate a 3D rotating globe and a drag-and-drop itinerary planner.",
+        image: "/projects/travel_planner.png",
+        tags: ["NeonDB", "NextJS", "GoogleMap API", "React", "Lucide-React", "UploadThing API", "GitHub OAuth", "PostgreSQL"],
+        demoUrl: "https://travel-planner-app-47mf-ieftmj3h7-excelyynxs-projects.vercel.app/",
+        gitUrl: "https://github.com/excelyynxl-a11y/travel-planner-app",
+    },
+    {
+        id: 2,
+        title: "Weightlifting Management System",
+        description: "WLMS that registers athletes, validates for registration of athletes, and determines barbell setup for a liftoff.",
+        image: "/projects/wlms.png",
+        tags: ["HTML", "CSS", "JS", "Selenium", "Hypothesis", "Unittest"],
+        demoUrl: "#",
+        gitUrl: "https://github.com/excelyynxl-a11y/WeightliftingManagementSystem/tree/main",
+    },
+    {
+        id: 3,
         title: "Pomodoro Timer",
         description: "Pomodoro timer for short, medium and long breaks with sound effect.",
         image: "/projects/pomodoro_timer.png",
@@ -11,16 +29,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/pomodoro.git",
     },
     {
-        id: 2,
-        title: "Text to Voice Converter",
-        description: "Text to voice converter where user can input their text, select a voice and hear an audible speech.",
-        image: "/projects/text_to_voice_converter.png",
-        tags: ["HTML", "CSS", "JS"],
-        demoUrl: "https://excelyynxl-a11y.github.io/TextToVoiceConverter/",
-        gitUrl: "https://github.com/excelyynxl-a11y/TextToVoiceConverter",
-    },
-    {
-        id: 3,
+        id: 4,
         title: "Tic Tac Toe",
         description: "Classic tic tac toe game where players can play with computers..",
         image: "/projects/tic_tac_toe.png",
@@ -29,7 +38,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/TicTacToeGame.git",
     },
     {
-        id: 4,
+        id: 5,
         title: "Weather App",
         description: "Weather web that allows users to search a city and obtain a weather forecast.",
         image: "/projects/weather_app.png",
@@ -38,15 +47,15 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/WeatherApp.git",
     },
     {
-        id: 5,
-        title: "Weightlifting Management System",
-        description: "WLMS that registers athletes, validates for registration of athletes, and determines barbell setup for a liftoff.",
-        image: "/projects/wlms.png",
-        tags: ["HTML", "CSS", "JS", "Selenium", "Hypothesis", "Unittest"],
-        demoUrl: "#",
-        gitUrl: "https://github.com/excelyynxl-a11y/WeightliftingManagementSystem/tree/main",
+        id: 6,
+        title: "Text to Voice Converter",
+        description: "Text to voice converter where user can input their text, select a voice and hear an audible speech.",
+        image: "/projects/text_to_voice_converter.png",
+        tags: ["HTML", "CSS", "JS"],
+        demoUrl: "https://excelyynxl-a11y.github.io/TextToVoiceConverter/",
+        gitUrl: "https://github.com/excelyynxl-a11y/TextToVoiceConverter",
     },
-
+    
 ]
 
 export const ProjectsSection = () => {
