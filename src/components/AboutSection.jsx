@@ -35,12 +35,19 @@ export const AboutSection = () => {
                             💬 QOTD "what a priviledge to outgrow things you once settled for"
                         </p>
 
+                        <a 
+                            href="https://about-me-quiz-iwxlw5gos-excelyynxs-projects.vercel.app/"
+                            target="_blank"
+                            className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                        >
+                            More fun facts
+                        </a>
+
                         <div className="flex flex-col sm: flex-row gap-4 pt-4 justify-center">
                             <a 
                                 href="#contact" 
                                 className="cosmic-button"
                             >
-                                {" "}
                                 Contact Me
                             </a>
 
