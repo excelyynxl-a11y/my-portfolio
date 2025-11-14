@@ -12,6 +12,15 @@ const projects = [
     },
     {
         id: 2,
+        title: "Gemini Clone",
+        description: "Cloned Google Gemini webpage using React js and Gemini API integration.",
+        image: "/projects/gemini_clone.png",
+        tags: ["React", "Lucide-React", "GoogleGemini API"],
+        demoUrl: "#",
+        gitUrl: "https://github.com/excelyynxl-a11y/gemini-clone",
+    },
+    {
+        id: 3,
         title: "Weightlifting Management System",
         description: "WLMS that registers athletes, validates for registration of athletes, and determines barbell setup for a liftoff.",
         image: "/projects/wlms.png",
@@ -20,7 +29,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/WeightliftingManagementSystem/tree/main",
     },
     {
-        id: 3,
+        id: 4,
         title: "About Me Quiz",
         description: "Simple 'About Me' quiz create using React framework, Users can answer multiple-choice questions, get instant feedback on correctness, get final score and restart the quiz.",
         image: "/projects/about_me.png",
@@ -29,7 +38,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/about-me-quiz",
     },
     {
-        id: 4,
+        id: 5,
         title: "Pomodoro Timer",
         description: "Pomodoro timer for short, medium and long breaks with sound effect.",
         image: "/projects/pomodoro_timer.png",
@@ -38,7 +47,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/pomodoro.git",
     },
     {
-        id: 5,
+        id: 6,
         title: "Tic Tac Toe",
         description: "Classic tic tac toe game where players can play with computers..",
         image: "/projects/tic_tac_toe.png",
@@ -47,7 +56,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/TicTacToeGame.git",
     },
     {
-        id: 6,
+        id: 7,
         title: "Weather App",
         description: "Weather web that allows users to search a city and obtain a weather forecast.",
         image: "/projects/weather_app.png",
@@ -56,7 +65,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/WeatherApp.git",
     },
     {
-        id: 7,
+        id: 8,
         title: "Text to Voice Converter",
         description: "Text to voice converter where user can input their text, select a voice and hear an audible speech.",
         image: "/projects/text_to_voice_converter.png",
@@ -117,13 +126,35 @@ export const ProjectsSection = () => {
 
                                 <div className="flex justify-between items-center">
                                     <div className="flex space-x-3">
-                                        <a 
-                                            href={project.demoUrl} 
-                                            target="_blank"
-                                            className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                                        > 
-                                            <ExternalLink size={20}/> 
-                                        </a>
+                                        {project.demoUrl !== "#" ? 
+                                        <>
+                                            <a 
+                                                href={project.demoUrl} 
+                                                target="_blank"
+                                                className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                                            > 
+                                                <ExternalLink size={20}/> 
+                                            </a>
+                                        </>
+                                        :
+                                        <></>
+                                        }
+
+                                        {/* /* // <a 
+                                        //     href={project.demoUrl} 
+                                        //     target="_blank"
+                                        //     className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                                        // > 
+                                        //     <ExternalLink size={20}/> 
+                                        // </a>
+                                        // <a 
+                                        //     href={project.gitUrl} 
+                                        //     target="_blank"
+                                        //     className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                                        // > 
+                                        //     <Github size={20}/> 
+                                        // </a> */ }
+
                                         <a 
                                             href={project.gitUrl} 
                                             target="_blank"
