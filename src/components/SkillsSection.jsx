@@ -7,7 +7,7 @@ const skills = [
     {name: "JavaScript", level: 75, category: "frontend"},
     {name: "React", level: 35, category: "frontend"},
     {name: "NextJS", level: 30, category: "frontend"},
-    {name: "Tailwind CSS", level: 45, category: "frontend"},
+    {name: "Tailwind CSS", level: 30, category: "frontend"},
 
     // language
     {name: "Python", level: 85, category: "language"},
@@ -34,6 +34,7 @@ const skills = [
     {name: "GoogleGemini API", level: 15, category: "api"},
     {name: "EmailJS API", level: 15, category: "api"},
     {name: "UploadThing API", level: 15, category: "api"},
+    {name: "CoinGecko API", level: 15, category: "api"},
 ];
 
 const categories = ["all", "frontend", "language", "testing", "tools", "database", "api"]
