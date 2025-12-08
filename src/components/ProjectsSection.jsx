@@ -30,6 +30,15 @@ const projects = [
     },
     {
         id: 4,
+        title: "Finance Tracker with Machine Learning Predictions using Regression, Recharts, Redux Toolkit and Material UI",
+        description: "Finance Tracker",
+        image: "/projects/finance_tracker.png",
+        tags: ["Redux Toolkit", "Material UI", "Recharts", "MongoDB", "Express JS", "Node JS"],
+        demoUrl: "#",
+        gitUrl: "https://github.com/excelyynxl-a11y/finance-tracker",
+    },
+    {
+        id: 5,
         title: "Weightlifting Management System",
         description: "WLMS that registers athletes, validates for registration of athletes, and determines barbell setup for a liftoff.",
         image: "/projects/wlms.png",
@@ -38,7 +47,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/WeightliftingManagementSystem/tree/main",
     },
     {
-        id: 5,
+        id: 6,
         title: "About Me Quiz",
         description: "Simple 'About Me' quiz create using React framework, Users can answer multiple-choice questions, get instant feedback on correctness, get final score and restart the quiz.",
         image: "/projects/about_me.png",
@@ -47,7 +56,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/about-me-quiz",
     },
     {
-        id: 6,
+        id: 7,
         title: "Pomodoro Timer",
         description: "Pomodoro timer for short, medium and long breaks with sound effect.",
         image: "/projects/pomodoro_timer.png",
@@ -56,7 +65,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/pomodoro.git",
     },
     {
-        id: 7,
+        id: 8,
         title: "Tic Tac Toe",
         description: "Classic tic tac toe game where players can play with computers..",
         image: "/projects/tic_tac_toe.png",
@@ -65,7 +74,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/TicTacToeGame.git",
     },
     {
-        id: 8,
+        id: 9,
         title: "Weather App",
         description: "Weather web that allows users to search a city and obtain a weather forecast.",
         image: "/projects/weather_app.png",
@@ -74,7 +83,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/WeatherApp.git",
     },
     {
-        id: 9,
+        id: 10,
         title: "Text to Voice Converter",
         description: "Text to voice converter where user can input their text, select a voice and hear an audible speech.",
         image: "/projects/text_to_voice_converter.png",
