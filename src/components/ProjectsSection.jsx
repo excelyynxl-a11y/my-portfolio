@@ -30,8 +30,8 @@ const projects = [
     },
     {
         id: 4,
-        title: "Finance Tracker with Machine Learning Predictions using Regression, Recharts, Redux Toolkit and Material UI",
-        description: "Finance Tracker",
+        title: "Finance Tracker",
+        description: "Finance Tracker with Machine Learning Predictions using Regression, Recharts, Redux Toolkit and Material UI",
         image: "/projects/finance_tracker.png",
         tags: ["Redux Toolkit", "Material UI", "Recharts", "MongoDB", "Express JS", "Node JS"],
         demoUrl: "#",
