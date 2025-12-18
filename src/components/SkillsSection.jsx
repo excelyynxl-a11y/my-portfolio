@@ -28,6 +28,7 @@ const skills = [
 
     // db 
     {name: "NeonDB", level: 15, category: "database"},
+    {name: "MongoDB", level: 15, category: "database"},
 
     // api 
     {name: "GoogleMap API", level: 15, category: "api"},
@@ -35,6 +36,7 @@ const skills = [
     {name: "EmailJS API", level: 15, category: "api"},
     {name: "UploadThing API", level: 15, category: "api"},
     {name: "CoinGecko API", level: 15, category: "api"},
+    {name: "Stripe API", level: 10, category: "api"}
 ];
 
 const categories = ["all", "frontend", "language", "testing", "tools", "database", "api"]
