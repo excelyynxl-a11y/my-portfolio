@@ -21,6 +21,15 @@ const projects = [
     },
     {
         id: 3,
+        title: "AI Newsletter",
+        description: "A SaaS platform that allows users to receive AI-generated newsletters tailored to their interests and preferred frequency.",
+        image: "/projects/ai_newsletter.png",
+        tags: ["Supabase", "NextJS", "EmailJS API", "React", "Inngest", "OpenAI API"],
+        demoUrl: "#",
+        gitUrl: "https://github.com/excelyynxl-a11y/ai-newsletter",
+    },
+    {
+        id: 4,
         title: "Gemini Clone",
         description: "Cloned Google Gemini webpage using React js and Gemini API integration.",
         image: "/projects/gemini_clone.png",
@@ -29,7 +38,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/gemini-clone",
     },
     {
-        id: 4,
+        id: 5,
         title: "Crypto Dashboard",
         description: "Crypto tracking web application that displays real-time cryptocurrency data, browse top cryptocurrencies, view detailed metrics, and explore a 7-day interactive chart powered by Recharts.",
         image: "/projects/crypto_dashboard.png",

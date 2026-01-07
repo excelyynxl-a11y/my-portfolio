@@ -29,10 +29,12 @@ const skills = [
     // db 
     {name: "NeonDB", level: 15, category: "database"},
     {name: "MongoDB", level: 15, category: "database"},
+    {name: "Supabase", level: 15, category: "database"},
 
     // api 
     {name: "GoogleMap API", level: 15, category: "api"},
     {name: "GoogleGemini API", level: 15, category: "api"},
+    {name: "OpenAI API", level: 15, category: "api"},
     {name: "EmailJS API", level: 15, category: "api"},
     {name: "UploadThing API", level: 15, category: "api"},
     {name: "CoinGecko API", level: 15, category: "api"},
