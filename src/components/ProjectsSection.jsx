@@ -25,7 +25,7 @@ const projects = [
         description: "A SaaS platform that allows users to receive AI-generated newsletters tailored to their interests and preferred frequency.",
         image: "/projects/ai_newsletter.png",
         tags: ["Supabase", "NextJS", "EmailJS API", "React", "Inngest", "OpenAI API"],
-        demoUrl: "#",
+        demoUrl: "https://ai-newsletter-chi.vercel.app",
         gitUrl: "https://github.com/excelyynxl-a11y/ai-newsletter",
     },
     {
