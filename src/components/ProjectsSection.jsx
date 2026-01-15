@@ -20,13 +20,22 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/travel-planner-app",
     },
     {
-        id: 4,
+        id: 3,
         title: "KawanKawan Social Media App",
         description: "A SaaS social media platform that allows user authentication, image upload, dynamic voting and commenting system, community groups. The app is designed to be mobile responsive with modern glassmorphism aesthetic effects.",
         image: "/projects/kawan_kawan_social_media.png",
         tags: ["Supabase", "React", "TailwindCSS", "GitHub OAuth"],
         demoUrl: "https://social-media-kawan-kawan-git-main-excelyynxs-projects.vercel.app/",
         gitUrl: "https://github.com/excelyynxl-a11y/social-media-app",
+    },
+    {
+        id: 4,
+        title: "LikeItShort URL Shortener",
+        description: "A simple and modern URL shortener that allows users to convert long URLs into short, shareable links and automatically redirects users to the original URL when accessed",
+        image: "/projects/likeitshort_url_shortener.png",
+        tags: ["NextJS", "MongoDB"],
+        demoUrl: "https://url-shortener-te9k.vercel.app/",
+        gitUrl: "https://github.com/excelyynxl-a11y/url-shortener",
     },
     {
         id: 5,
