@@ -29,7 +29,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/travel-planner-app",
     },
     {
-        id: 4,
+        id: 3,
         title: "Gemini Clone",
         description: "Cloned Google Gemini webpage using React js and Gemini API integration.",
         image: "/projects/gemini_clone.png",
@@ -38,7 +38,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/gemini-clone",
     },
     {
-        id: 5,
+        id: 4,
         title: "Crypto Dashboard",
         description: "Crypto tracking web application that displays real-time cryptocurrency data, browse top cryptocurrencies, view detailed metrics, and explore a 7-day interactive chart powered by Recharts.",
         image: "/projects/crypto_dashboard.png",
@@ -47,7 +47,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/crypto-price-website",
     },
     {
-        id: 6,
+        id: 5,
         title: "Finance Tracker",
         description: "Finance Tracker with Machine Learning Predictions using Regression, Recharts, Redux Toolkit and Material UI",
         image: "/projects/finance_tracker.png",
@@ -56,7 +56,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/finance-tracker",
     },
     {
-        id: 7,
+        id: 6,
         title: "Weightlifting Management System",
         description: "WLMS that registers athletes, validates for registration of athletes, and determines barbell setup for a liftoff.",
         image: "/projects/wlms.png",
@@ -65,7 +65,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/WeightliftingManagementSystem/tree/main",
     },
     {
-        id: 8,
+        id: 7,
         title: "About Me Quiz",
         description: "Simple 'About Me' quiz create using React framework, Users can answer multiple-choice questions, get instant feedback on correctness, get final score and restart the quiz.",
         image: "/projects/about_me.png",
@@ -74,7 +74,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/about-me-quiz",
     },
     {
-        id: 9,
+        id: 8,
         title: "Pomodoro Timer",
         description: "Pomodoro timer for short, medium and long breaks with sound effect.",
         image: "/projects/pomodoro_timer.png",
@@ -83,7 +83,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/pomodoro.git",
     },
     {
-        id: 10,
+        id: 9,
         title: "Tic Tac Toe",
         description: "Classic tic tac toe game where players can play with computers..",
         image: "/projects/tic_tac_toe.png",
@@ -92,7 +92,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/TicTacToeGame.git",
     },
     {
-        id: 11,
+        id: 10,
         title: "Weather App",
         description: "Weather web that allows users to search a city and obtain a weather forecast.",
         image: "/projects/weather_app.png",
@@ -101,7 +101,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/WeatherApp.git",
     },
     {
-        id: 12,
+        id: 11,
         title: "Text to Voice Converter",
         description: "Text to voice converter where user can input their text, select a voice and hear an audible speech.",
         image: "/projects/text_to_voice_converter.png",

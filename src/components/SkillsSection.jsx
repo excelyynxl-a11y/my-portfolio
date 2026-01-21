@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
@@ -34,6 +34,7 @@ const skills = [
     // api 
     {name: "GoogleMap API", level: 15, category: "api"},
     {name: "GoogleGemini API", level: 15, category: "api"},
+    {name: "OpenAI API", level: 15, category: "api"},
     {name: "EmailJS API", level: 15, category: "api"},
     {name: "UploadThing API", level: 15, category: "api"},
     {name: "CoinGecko API", level: 15, category: "api"},
