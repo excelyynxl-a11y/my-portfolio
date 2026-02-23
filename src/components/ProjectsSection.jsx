@@ -34,7 +34,7 @@ const projects = [
         description: "A simple and modern URL shortener that allows users to convert long URLs into short, shareable links and automatically redirects users to the original URL when accessed",
         image: "/projects/likeitshort_url_shortener.png",
         tags: ["NextJS", "MongoDB"],
-        demoUrl: "https://url-shortener-te9k.vercel.app/",
+        demoUrl: "#",
         gitUrl: "https://github.com/excelyynxl-a11y/url-shortener",
     },
     {
