@@ -3,6 +3,15 @@ import { Github, ExternalLink, ArrowRight } from "lucide-react";
 const projects = [
     {
         id: 1,
+        title: "JobYourLove Job Portal",
+        description: "A Job-Searching and Job-Hiring web fro jobseeker and company.",
+        image: "/projects/jobportal_web.png",
+        tags: ["MERN", "TailwindCSS", "JWT Token", "Axios"],
+        demoUrl: "#",
+        gitUrl: "https://github.com/excelyynxl-a11y/job-portal-app",
+    },
+    {
+        id: 2,
         title: "BuyUntilImBroke EComm Web",
         description: "A complete shopping flow including cart management and secure checkout using Stripe.",
         image: "/projects/ecommerce_web.png",
@@ -11,7 +20,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/ecommerce-web",
     },
     {
-        id: 2,
+        id: 3,
         title: "Habit Tracker Mobile App",
         description: "Mobile application allows users to track daily progress, visualizes streaks and inspect habit streak rankings.",
         image: "/projects/habit_tracker_app.png",
@@ -20,7 +29,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/habit-tracker",
     },
     {
-        id: 3,
+        id: 4,
         title: "KawanKawan Social Media App",
         description: "A SaaS social media platform that allows user authentication, image upload, dynamic voting and commenting system, community groups. The app is designed to be mobile responsive with modern glassmorphism aesthetic effects.",
         image: "/projects/kawan_kawan_social_media.png",
@@ -29,7 +38,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/social-media-app",
     },
     {
-        id: 4,
+        id: 5,
         title: "LikeItShort URL Shortener",
         description: "A simple and modern URL shortener that allows users to convert long URLs into short, shareable links and automatically redirects users to the original URL when accessed",
         image: "/projects/likeitshort_url_shortener.png",
@@ -38,7 +47,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/url-shortener",
     },
     {
-        id: 5,
+        id: 6,
         title: "AI Newsletter",
         description: "A SaaS platform that allows users to receive AI-generated newsletters tailored to their interests and preferred frequency.",
         image: "/projects/ai_newsletter.png",
@@ -47,22 +56,13 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/ai-newsletter",
     },
     {
-        id: 6,
+        id: 7,
         title: "Travel Planner",
         description: "Full-stack trip planning web app to sign in with GitHub account, create personalized travel itineraries, visualize destinations on Google Map, integrate a 3D rotating globe and a drag-and-drop itinerary planner.",
         image: "/projects/travel_planner.png",
         tags: ["NeonDB", "NextJS", "GoogleMap API", "React", "Lucide-React", "UploadThing API", "GitHub OAuth", "PostgreSQL"],
         demoUrl: "https://travel-planner-app-47mf-ieftmj3h7-excelyynxs-projects.vercel.app/",
         gitUrl: "https://github.com/excelyynxl-a11y/travel-planner-app",
-    },
-    {
-        id: 7,
-        title: "Gemini Clone",
-        description: "Cloned Google Gemini webpage using React js and Gemini API integration.",
-        image: "/projects/gemini_clone.png",
-        tags: ["React", "Lucide-React", "GoogleGemini API"],
-        demoUrl: "#",
-        gitUrl: "https://github.com/excelyynxl-a11y/gemini-clone",
     },
     {
         id: 8,
@@ -74,7 +74,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/crypto-price-website",
     },
     {
-        id: 10,
+        id: 9,
         title: "Finance Tracker",
         description: "Finance Tracker with Machine Learning Predictions using Regression, Recharts, Redux Toolkit and Material UI",
         image: "/projects/finance_tracker.png",
@@ -83,7 +83,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/finance-tracker",
     },
     {
-        id: 11,
+        id: 10,
         title: "Weightlifting Management System",
         description: "WLMS that registers athletes, validates for registration of athletes, and determines barbell setup for a liftoff.",
         image: "/projects/wlms.png",
