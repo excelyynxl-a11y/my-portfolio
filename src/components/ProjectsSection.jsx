@@ -29,7 +29,16 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/habit-tracker",
     },
     {
-        id: 4,
+        id: 5,
+        title: "Chatty Realtime Messaging App",
+        description: "A full-stack real-time messaging application built with the MERN stack. It supports instant communication with text and image messages, secure authentication, and a clean, modern UI.",
+        image: "/projects/chatty_messaging_app.png",
+        tags: ["MERN", "TailwindCSS", "DaisyUI", "Cloudinary", "Socket.io"],
+        demoUrl: "https://messaging-app-5opq.onrender.com",
+        gitUrl: "https://github.com/excelyynxl-a11y/messaging-app",
+    },
+    {
+        id: 6,
         title: "KawanKawan Social Media App",
         description: "A SaaS social media platform that allows user authentication, image upload, dynamic voting and commenting system, community groups. The app is designed to be mobile responsive with modern glassmorphism aesthetic effects.",
         image: "/projects/kawan_kawan_social_media.png",
@@ -38,7 +47,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/social-media-app",
     },
     {
-        id: 5,
+        id: 7,
         title: "LikeItShort URL Shortener",
         description: "A simple and modern URL shortener that allows users to convert long URLs into short, shareable links and automatically redirects users to the original URL when accessed",
         image: "/projects/likeitshort_url_shortener.png",
@@ -47,7 +56,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/url-shortener",
     },
     {
-        id: 6,
+        id: 8,
         title: "AI Newsletter",
         description: "A SaaS platform that allows users to receive AI-generated newsletters tailored to their interests and preferred frequency.",
         image: "/projects/ai_newsletter.png",
@@ -56,7 +65,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/ai-newsletter",
     },
     {
-        id: 7,
+        id: 9,
         title: "Travel Planner",
         description: "Full-stack trip planning web app to sign in with GitHub account, create personalized travel itineraries, visualize destinations on Google Map, integrate a 3D rotating globe and a drag-and-drop itinerary planner.",
         image: "/projects/travel_planner.png",
@@ -65,7 +74,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/travel-planner-app",
     },
     {
-        id: 8,
+        id: 10,
         title: "Crypto Dashboard",
         description: "Crypto tracking web application that displays real-time cryptocurrency data, browse top cryptocurrencies, view detailed metrics, and explore a 7-day interactive chart powered by Recharts.",
         image: "/projects/crypto_dashboard.png",
@@ -74,7 +83,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/crypto-price-website",
     },
     {
-        id: 9,
+        id: 11,
         title: "Finance Tracker",
         description: "Finance Tracker with Machine Learning Predictions using Regression, Recharts, Redux Toolkit and Material UI",
         image: "/projects/finance_tracker.png",
@@ -83,7 +92,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/finance-tracker",
     },
     {
-        id: 10,
+        id: 12,
         title: "Weightlifting Management System",
         description: "WLMS that registers athletes, validates for registration of athletes, and determines barbell setup for a liftoff.",
         image: "/projects/wlms.png",
