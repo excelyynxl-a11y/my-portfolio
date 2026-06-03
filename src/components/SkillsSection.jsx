@@ -4,7 +4,6 @@ import { cn } from "@/lib/utils";
 const skills = [
     // frontend
     {name: "HTML/CSS", level: 69, category: "frontend"},
-    {name: "JavaScript", level: 75, category: "frontend"},
     {name: "React", level: 35, category: "frontend"},
     {name: "React Native", level: 5, category: "frontend"},
     {name: "NextJS", level: 30, category: "frontend"},
@@ -13,7 +12,8 @@ const skills = [
     // language
     {name: "Python", level: 85, category: "language"},
     {name: "Java", level: 75, category: "language"},
-    {name: "JavaScript", level: 75, category: "language"},
+    {name: "JavaScript", level: 65, category: "language"},
+    {name: "TypeScript", level: 25, category: "language"},
 
     // testing 
     {name: "Unittest", level: 85, category: "testing"},
@@ -26,11 +26,13 @@ const skills = [
     {name: "GitHub", level: 95, category: "tools"},
     {name: "GitLab", level: 95, category: "tools"},
     {name: "Postman", level: 45, category: "tools"},
+    {name: "Docker", level: 35, category: "tools"},
 
     // db 
     {name: "NeonDB", level: 15, category: "database"},
     {name: "MongoDB", level: 15, category: "database"},
     {name: "AppWrite", level: 10, category: "database"},
+    {name: "Supabase", level: 10, category: "database"},
 
     // api 
     {name: "GoogleMap API", level: 15, category: "api"},
