@@ -117,7 +117,7 @@ export const ContactSection = () => {
                                 </a>
 
                                 <a 
-                                    href="https://www.instagram.com/excel_is_ex/?hl=en"
+                                    href="https://www.instagram.com/excel_is_ex/"
                                     target="_blank"
                                 >
                                     <Instagram />
