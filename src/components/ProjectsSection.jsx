@@ -3,6 +3,15 @@ import { Github, ExternalLink, ArrowRight } from "lucide-react";
 const projects = [
     {
         id: 1,
+        title: "Sore High Catalog",
+        description: "A stunning animated Awwward inspired catalog for Sore High clothing company.",
+        image: "/projects/sore_high.png",
+        tags: ["Next", "TailwindCSS", "GSAP"],
+        demoUrl: "#",
+        gitUrl: "https://github.com/excelyynxl-a11y/sore-high-landing-page",
+    },
+    {
+        id: 2,
         title: "JobYourLove Job Portal",
         description: "A Job-Searching and Job-Hiring web fro jobseeker and company.",
         image: "/projects/jobportal_web.png",
@@ -11,7 +20,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/job-portal-app",
     },
     {
-        id: 2,
+        id: 3,
         title: "BuyUntilImBroke EComm Web",
         description: "A complete shopping flow including cart management and secure checkout using Stripe.",
         image: "/projects/ecommerce_web.png",
@@ -20,7 +29,7 @@ const projects = [
         gitUrl: "https://github.com/excelyynxl-a11y/ecommerce-web",
     },
     {
-        id: 3,
+        id: 4,
         title: "Habit Tracker Mobile App",
         description: "Mobile application allows users to track daily progress, visualizes streaks and inspect habit streak rankings.",
         image: "/projects/habit_tracker_app.png",
