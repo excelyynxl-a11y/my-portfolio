@@ -7,7 +7,7 @@ const projects = [
         description: "A stunning animated Awwward inspired catalog for Sore High clothing company.",
         image: "/projects/sore_high.png",
         tags: ["Next", "TailwindCSS", "GSAP"],
-        demoUrl: "#",
+        demoUrl: "https://sore-high.vercel.app/",
         gitUrl: "https://github.com/excelyynxl-a11y/sore-high-landing-page",
     },
     {
