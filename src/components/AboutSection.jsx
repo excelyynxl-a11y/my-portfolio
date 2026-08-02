@@ -16,7 +16,7 @@ export const AboutSection = () => {
                         </h3>
 
                         <p className="text-muted-foreground">
-                            I'm Excelyynx from Malaysia, currently a Year 2 student pursuing Software Engineering at Monash University Malaysia.
+                            I'm Excelyynx from Malaysia, currently a Year 3 student pursuing Software Engineering at Monash University Malaysia.
                             I have great ethusiasm in crafting responsive, interactive web applications using modern development tools,
                             exploring APIs, testing automation frameworks and clean UI design.
                         </p>
